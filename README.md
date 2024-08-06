@@ -1,7 +1,4 @@
 # PSO-Module (With/Without Penalty Function)
-Ths code is for one simulation, <br>
-upon calling the function, it returns a list of sum rates (Length - Number of max iterations). <br>
-To perform multiple simulations, call the function inside a for/while loop and then take the average of those simulations. <br>
 
 ## PSO-Module with Penalty Function
 ### Function name <br>
