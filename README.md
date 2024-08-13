@@ -40,7 +40,7 @@ Return penalty value [Float] <br>
 Generally with PSO Algorithm, the penalty function differs from problem to problem. You can incorporate the penalty function in the *conditions(para)* function and return a penalty value. <br>
 Penalty function used here: <br>
 > **αᵢ = (constraint value)ᵢ - (constraint minimum/maximum value) <br>
-Total penalty = Σ αᵢ ρᵢ <br>
+Total penalty = Σ -αᵢ ρᵢ <br>
 Fitness Value = Rₛᵤₘ + Total penalty** <br>
 
 where, *ρᵢ* = 1 is not satisfied and *ρᵢ* = 0 is satisfied. <br>
